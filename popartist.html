@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DP gaana</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d4ca8e3fb8.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <main>
+        <!-- navigation bar -->
+        <nav class="topnav">
+
+            <!-- brand image, name & fav -->
+            <div class="name">
+            <a href="index.html" class="brand-img"><img src="logo anim.gif" alt="DP gaana"></a>
+            </div>
+            
+            <div class="fav">
+                <h5>Favourite</h5>
+            </div>
+
+            <!-- search bar -->
+            <div class="search-bar">
+                <!-- search bar icon -->
+                <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" placeholder="Search" class="search">
+                <!-- microphone icon -->
+                <span class="microphone"><i class="fa-solid fa-microphone"></i><span>
+            </div>
+            
+            <!-- notification icon -->
+            <div class="notification-icon">
+                <span></span>
+                <i class="bell fa-solid fa-bell"></i>
+            </div>
+
+            <!-- profile pic -->
+            <div class="profile-pic">
+                <img src="goku.png" alt="profile">
+            </div>
+
+        </nav>
+
+
+
+
+
+
+
+
+
+
+
+        
+        <!-- Main class for all the music library -->
+
+        <section class="main-content">
+
+            <!-- contains 2 div one is for image and 2nd is for all other details -->
+            <div class="artist-info">
+
+                <!-- image of the popular artist -->
+                <div class="info-img">
+                    <img src="kk.jpeg" alt="">
+                    <div class="grad-img"></div>
+                </div>
+                
+                <!-- information about popular artist -->
+                <div class="info">
+                    <!-- name -->
+                    <h2>KK
+                        <!-- followers -->
+                        <span>1.2M Followers</span>
+                        <div class="info-subtitle">Indian Singer</div>
+                    </h2>
+                    <!-- brief details about singer -->
+                    <p>
+                        Krishnakumar Kunnath (23 August 1968 - 31 May 2022), popularly known as KK, was an Indian playback singer. He recorded songs in Hindi, Tamil, Telugu, Kannada, Malayalam, Marathi, Odia, Bengali, Assamese and Gujarati. KK began his career by singing advertising jingles and made his film debut in 1996 on an A. R. Rahman soundtrack.
+                    </p>
+
+                    <!-- play all button div -->
+                    <div class="playall-btn">
+                        <button>Play All</button>
+                        <span>Follow</span>
+                        <div class="track-album">
+                            500 Tracks | 150 Albums
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- this div contains list of all the songs of artist -->
+            <div class="artist-song-list">
+
+                <!-- song details card -->
+                <div class="asl">
+                    <span>01</span>
+                    <img src="kk.jpeg" alt="">
+                    <h5>Yaaden
+                        <div class="asl-subtitle">
+                            KK
+                        </div>
+                    </h5>
+                    <div class="asl-timing">
+                        4:30
+                    </div>
+                    <i class="fa-regular fa-heart asl-heart"></i>
+                    <i class="fa-solid fa-plus asl-plus"></i>
+                </div>
+
+                <!-- song details card -->
+                <div class="asl">
+                    <span>02</span>
+                    <img src="kk.jpeg" alt="">
+                    <h5>Yaaden
+                        <div class="asl-subtitle">
+                            KK
+                        </div>
+                    </h5>
+                    <div class="asl-timing">
+                        4:30
+                    </div>
+                    <i class="fa-regular fa-heart asl-heart"></i>
+                    <i class="fa-solid fa-plus asl-plus"></i>
+                </div>
+
+                <!-- song details card -->
+                <div class="asl">
+                    <span>03</span>
+                    <img src="kk.jpeg" alt="">
+                    <h5>Yaaden
+                        <div class="asl-subtitle">
+                            KK
+                        </div>
+                    </h5>
+                    <div class="asl-timing">
+                        4:30
+                    </div>
+                    <i class="fa-regular fa-heart asl-heart"></i>
+                    <i class="fa-solid fa-plus asl-plus"></i>
+                </div>
+
+                <!-- song details card -->
+                <div class="asl">
+                    <span>04</span>
+                    <img src="kk.jpeg" alt="">
+                    <h5>Yaaden
+                        <div class="asl-subtitle">
+                            KK
+                        </div>
+                    </h5>
+                    <div class="asl-timing">
+                        4:30
+                    </div>
+                    <i class="fa-regular fa-heart asl-heart"></i>
+                    <i class="fa-solid fa-plus asl-plus"></i>
+                </div>
+
+                <!-- song details card -->
+                <div class="asl">
+                    <span>05</span>
+                    <img src="kk.jpeg" alt="">
+                    <h5>Yaaden
+                        <div class="asl-subtitle">
+                            KK
+                        </div>
+                    </h5>
+                    <div class="asl-timing">
+                        4:30
+                    </div>
+                    <i class="fa-regular fa-heart asl-heart"></i>
+                    <i class="fa-solid fa-plus asl-plus"></i>
+                </div>
+
+                <!-- song details card -->
+                <div class="asl">
+                    <span>06</span>
+                    <img src="kk.jpeg" alt="">
+                    <h5>Yaaden
+                        <div class="asl-subtitle">
+                            KK
+                        </div>
+                    </h5>
+                    <div class="asl-timing">
+                        4:30
+                    </div>
+                    <i class="fa-regular fa-heart asl-heart"></i>
+                    <i class="fa-solid fa-plus asl-plus"></i>
+                </div>
+
+                <!-- song details card -->
+                <div class="asl">
+                    <span>07</span>
+                    <img src="kk.jpeg" alt="">
+                    <h5>Yaaden
+                        <div class="asl-subtitle">
+                            KK
+                        </div>
+                    </h5>
+                    <div class="asl-timing">
+                        4:30
+                    </div>
+                    <i class="fa-regular fa-heart asl-heart"></i>
+                    <i class="fa-solid fa-plus asl-plus"></i>
+                </div>
+
+                <!-- song details card -->
+                <div class="asl">
+                    <span>08</span>
+                    <img src="kk.jpeg" alt="">
+                    <h5>Yaaden
+                        <div class="asl-subtitle">
+                            KK
+                        </div>
+                    </h5>
+                    <div class="asl-timing">
+                        4:30
+                    </div>
+                    <i class="fa-regular fa-heart asl-heart"></i>
+                    <i class="fa-solid fa-plus asl-plus"></i>
+                </div>
+
+                <!-- song details card -->
+                <div class="asl">
+                    <span>09</span>
+                    <img src="kk.jpeg" alt="">
+                    <h5>Yaaden
+                        <div class="asl-subtitle">
+                            KK
+                        </div>
+                    </h5>
+                    <div class="asl-timing">
+                        4:30
+                    </div>
+                    <i class="fa-regular fa-heart asl-heart"></i>
+                    <i class="fa-solid fa-plus asl-plus"></i>
+                </div>
+
+                <!-- song details card -->
+                <div class="asl">
+                    <span>10</span>
+                    <img src="kk.jpeg" alt="">
+                    <h5>Yaaden
+                        <div class="asl-subtitle">
+                            KK
+                        </div>
+                    </h5>
+                    <div class="asl-timing">
+                        4:30
+                    </div>
+                    <i class="fa-regular fa-heart asl-heart"></i>
+                    <i class="fa-solid fa-plus asl-plus"></i>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- side-section queue, playlist, etc -->
+        <aside class="side-section">
+
+            <!-- contains 2 sections 1st is similar artist & 2nd is recently played -->
+            <div class="pa-side-section">
+                <!-- similar artist heading div -->
+                <div class="pa-aside-similar">
+                    <h3>Similar Artists
+                        <span>View All</span>
+                    </h3>
+                </div>
+    
+                <!-- similar artist song list -->
+                <div class="sa-list">
+                    <div class="sa-img">
+                        <img src="ariana grande.jpg">
+                        <div class="sa-play-button">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <h5>Be Alright <br> 
+                        <div class="sa-subtitle">Ariana Grande</div>
+                        </h5>
+                        <div class="sa-songdisc">
+                            <div class="sa-options">
+                                <a href="#" class="sa-dropicon"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        <div class="sa-timing">4:44</div>
+                        </div>
+                    </div>
+    
+                    <div class="sa-img">
+                        <img src="ariana grande.jpg">
+                        <div class="sa-play-button">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <h5>Be Alright <br> 
+                        <div class="sa-subtitle">Ariana Grande</div>
+                        </h5>
+                        <div class="sa-songdisc">
+                            <div class="sa-options">
+                                <a href="#" class="sa-dropicon"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        <div class="sa-timing">4:44</div>
+                        </div>
+                    </div>
+    
+                    <div class="sa-img">
+                        <img src="ariana grande.jpg">
+                        <div class="sa-play-button">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <h5>Be Alright <br> 
+                        <div class="sa-subtitle">Ariana Grande</div>
+                        </h5>
+                        <div class="sa-songdisc">
+                            <div class="sa-options">
+                                <a href="#" class="sa-dropicon"><i class="fa-solid fa-ellipsis"></i></a>
+                            </div>
+                        <div class="sa-timing">4:44</div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+    
+                <!-- recently played heading -->
+                <div class="recently-played">
+                    <h3>Recentely Played
+                        <span>View All</span>
+                    </h3>
+                </div>
+    
+                <!-- recently played song list -->
+                <div class="rp-list">
+                    <li class="rp-song-item"><span>01</span> 
+                        <img src="selena.jpeg" alt="">
+                       
+                        <h5>Love You Like a Love Song <br> 
+                            <div class="rp-subtitle">Selena Gomez</div>
+                        </h5>
+                        <i class="fa-regular fa-heart rp-listheart"></i>
+                    </li>
+
+                    <li class="rp-song-item"><span>01</span> 
+                        <img src="selena.jpeg" alt="">
+                       
+                        <h5>Love You Like a Love Song <br> 
+                            <div class="rp-subtitle">Selena Gomez</div>
+                        </h5>
+                        <i class="fa-regular fa-heart rp-listheart"></i>
+                    </li>
+
+                    <li class="rp-song-item"><span>01</span> 
+                        <img src="selena.jpeg" alt="">
+                       
+                        <h5>Love You Like a Love Song <br> 
+                            <div class="rp-subtitle">Selena Gomez</div>
+                        </h5>
+                        <i class="fa-regular fa-heart rp-listheart"></i>
+                    </li>
+
+                    <li class="rp-song-item"><span>01</span> 
+                        <img src="selena.jpeg" alt="">
+                       
+                        <h5>Love You Like a Love Song <br> 
+                            <div class="rp-subtitle">Selena Gomez</div>
+                        </h5>
+                        <i class="fa-regular fa-heart rp-listheart"></i>
+                    </li>
+
+                    <li class="rp-song-item"><span>01</span> 
+                        <img src="selena.jpeg" alt="">
+                       
+                        <h5>Love You Like a Love Song <br> 
+                            <div class="rp-subtitle">Selena Gomez</div>
+                        </h5>
+                        <i class="fa-regular fa-heart rp-listheart"></i>
+                    </li>
+
+                    
+                </div>
+            </div>
+
+        </aside>
+
+
+
+
+
+
+
+
+
+        
+        <!-- music controller and music details -->
+        <footer>
+            <div class="song-description">
+                <!-- song cover pic, tite, artist name -->
+                <div class="song-infos">
+                    <!-- playing song cover image -->
+                    <div class="song-img">
+                        <img src="selena.jpeg" alt="">
+                    </div>
+                    <!-- song's artist name & title -->
+                    <div class="song-details">
+                        <p class="title">Love You Like a Love Song</p>
+                        <p class="artist">Selena Gomez</p>
+                    </div>
+                    <!-- song's like dislike buttons -->
+                    <div class="description-icons">
+                        <i class="description-like fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-ban"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- song's controlls like play, pause, next, previous -->
+            <div class="progress-controller">
+                <!-- play, pause, next, previous etc buttons -->
+                <div class="control-buttons">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="play-pause fa-2x fa-solid fa-circle-pause"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <!-- current song playing timeline -->
+                <div class="progress-container">
+                    <span>1:13</span>
+                    <div class="progress-bar">
+                        <div class="progress">
+                        </div>
+                    </div>
+                    <span>3:40</span>
+                </div>
+            </div>
+
+            <!-- list icon, volume up-down buttons -->
+            <div class="other-features">
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-display"></i>
+
+                <!-- volume control -->
+                <div class="volume-bar">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <div class="progress-bar">
+                        <div class="progress">
+                        </div>
+                    </div>
+                </div>
+                <!-- expand icon -->
+                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </div>
+        </footer>
+
+    </main>
+    
+</body>
+</html>

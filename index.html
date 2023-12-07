@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DP gaana</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d4ca8e3fb8.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <main>
+        <!-- navigation bar -->
+        <nav class="topnav">
+
+            <!-- brand image, name & fav -->
+            <div class="name">
+            <a href="#" class="brand-img"><img src="logo anim.gif" alt="DP gaana"></a>
+            </div>
+            
+            <div class="fav">
+                <h5>Favourite</h5>
+            </div>
+
+            <!-- search bar -->
+            <div class="search-bar">
+                <!-- search bar icon -->
+                <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" placeholder="Search" class="search">
+                <!-- microphone icon -->
+                <span class="microphone"><i class="fa-solid fa-microphone"></i><span>
+            </div>
+            
+            <!-- notification icon -->
+            <div class="notification-icon">
+                <span></span>
+                <i class="bell fa-solid fa-bell"></i>
+            </div>
+
+            <!-- profile pic -->
+            <div class="profile-pic">
+                <img src="goku.png" alt="profile">
+            </div>
+
+        </nav>
+
+
+
+
+
+
+
+
+
+
+
+        
+        <!-- Main class for all the music library -->
+
+        <section class="main-content">
+
+            <!-- top images with zoom transformation -->
+            <div class="slide-container">
+                <div class="image-slider">
+                   
+                    <img src="ed sheeran.jpg" alt="" class="slide-img" id="slide-img1">
+                    
+                </div>
+                <div class="image-slider">
+                   
+                    <img src="kishor kumar.jpeg" alt="" class="slide-img" id="slide-img2">
+                    
+                </div>
+                <div class="image-slider">
+                   
+                    <img src="chainsmokers.jpeg" alt="" class="slide-img" id="slide-img3"> 
+                    
+                </div>
+            </div>
+
+
+            <!-- latest release section -->
+
+            <div class="latest-release">
+                <!-- Heading -->
+                <div class="lr-tag">
+                    <h4>Latest Release</h4>
+                </div>
+                <!-- container for both the description-->
+                <div class="lr-songs">
+                    <!-- contains 2 cards of latest release song -->
+                    <div class="lr-discription">
+
+                        <!-- contains image and all other functionality of one song -->
+                        <div class="lr-img">
+                            <img src="ariana grande.jpg">
+                            <div class="lr-play-button">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <h5>Be Alright <br> 
+                            <div class="subtitle">Ariana Grande</div>
+                            </h5>
+                            <div class="lr-songdisc">
+                                <div class="lr-options">
+                                    <a href="#" class="lr-dropicon"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <div class="lr-dropdown">
+                                        <a href="#" class="plinks"> <i class="fa-solid fa-play fa-xs"></i> Play Now</a>
+                                        <a href="#" class="plinks"> <i class="fa-solid fa-plus fa-xs"></i> Add To Queue</a>
+                                        <a href="#" class="plinks"> <i class="fa-regular fa-file-lines fa-xs"></i> Add To Favourite</a>
+                                        <a href="#" class="plinks"> <i class="fa-solid fa-circle-info fa-xs"></i> Get Info</a>
+                                    </div>
+                                </div>
+                               <div class="timing">4:44</div>
+                            </div>
+                        </div>
+
+                        <!-- contains image and all other functionality of one song -->
+                        <div class="lr-img">
+                            <img src="vishal mishra.jpeg">
+                            <div class="lr-play-button">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <h5>Pehle Bhi Main<br> 
+                            <div class="subtitle">Vishal Mishra</div>
+                            </h5>
+                            <div class="lr-songdisc">
+                                <div class="lr-options">
+                                    <a href="#" class="lr-dropicon"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <div class="lr-dropdown">
+                                        <a href="#" class="plinks"> <i class="fa-solid fa-play fa-xs"></i> Play Now</a>
+                                        <a href="#" class="plinks"> <i class="fa-solid fa-plus fa-xs"></i> Add To Queue</a>
+                                        <a href="#" class="plinks"> <i class="fa-regular fa-file-lines fa-xs"></i> Add To Favourite</a>
+                                        <a href="#" class="plinks"> <i class="fa-solid fa-circle-info fa-xs"></i> Get Info</a>
+                                    </div>
+                                </div>
+                            <div class="timing">4:44</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- contains 2 cards of latest release song -->
+                    <div class="lr-discription">
+                        <!-- contains image and all other functionality of one song -->
+                        <div class="lr-img">
+                            <img src="anuv.jpg">
+                            <div class="lr-play-button">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <h5>Gul <br> 
+                            <div class="subtitle">Anuv Jain</div>
+                            </h5>
+                            <div class="lr-songdisc">
+                                <div class="lr-options">
+                                    <a href="#" class="lr-dropicon"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <div class="lr-dropdown">
+                                        <a href="#" class="plinks"> <i class="fa-solid fa-play fa-xs"></i> Play Now</a>
+                                        <a href="#" class="plinks"> <i class="fa-solid fa-plus fa-xs"></i> Add To Queue</a>
+                                        <a href="#" class="plinks"> <i class="fa-regular fa-file-lines fa-xs"></i> Add To Favourite</a>
+                                        <a href="#" class="plinks"> <i class="fa-solid fa-circle-info fa-xs"></i> Get Info</a>
+                                    </div>
+                                </div>
+                            <div class="timing">4:44</div>
+                            </div>
+                        </div>
+                        
+                        <!-- contains image and all other functionality of one song -->
+                        <div class="lr-img">
+                            <img src="ariana grande.jpg">
+                            <div class="lr-play-button">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <h5>Be Alright <br> 
+                            <div class="subtitle">Ariana Grande</div>
+                            </h5>
+                            <div class="lr-songdisc">
+                                <div class="lr-options">
+                                    <a href="#" class="lr-dropicon"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <div class="lr-dropdown">
+                                        <a href="#" class="plinks"> <i class="fa-solid fa-play fa-xs"></i> Play Now</a>
+                                        <a href="#" class="plinks"> <i class="fa-solid fa-plus fa-xs"></i> Add To Queue</a>
+                                        <a href="#" class="plinks"> <i class="fa-regular fa-file-lines fa-xs"></i> Add To Favourite</a>
+                                        <a href="#" class="plinks"> <i class="fa-solid fa-circle-info fa-xs"></i> Get Info</a>
+                                    </div>
+                                </div>
+                            <div class="timing">4:44</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                    
+            </div>
+
+
+            <!-- popular artist section -->
+            
+            <div class="popular-artist">
+                <!-- heading -->
+                <div class="pa-tag">
+                    <h4>Popular Artists</h4>
+                </div>
+
+                <!-- this div contains all the div of artists -->
+                <div class="pa-list">
+
+                    <!-- contains single artist details -->
+                    <div class="pa">
+                        <a href="popartist.html" class="pa-img">
+                            <img src="arijit.jpeg" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                        <h5>Arijit Singh</h5>
+                    </div>
+
+                    <!-- contains single artist details -->
+                    <div class="pa">
+                        <a href="popartist.html" class="pa-img">
+                            <img src="diljit dosanjh.jpeg" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                        <h5>Diljit Dosanjh</h5>
+                    </div>
+
+                    <!-- contains single artist details -->
+                    <div class="pa">
+                        <a href="popartist.html" class="pa-img">
+                            <img src="sidhu-moose-wala.jpeg" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                        <h5>Sidhu Moose Wala</h5>
+                    </div>
+
+                    <!-- contains single artist details -->
+                    <div class="pa">
+                        <a href="popartist.html" class="pa-img">
+                            <img src="selena.jpeg" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                        <h5>Selena Gomez</h5>
+                    </div>
+
+                    <!-- contains single artist details -->
+                    <div class="pa">
+                        <a href="popartist.html" class="pa-img">
+                            <img src="dua.jpg" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                        <h5>Dua Lipa</h5>
+                    </div>
+
+                    <!-- contains single artist details -->
+                    <div class="pa">
+                        <a href="popartist.html" class="pa-img">
+                            <img src="karan aujla.jpeg" alt="">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                        <h5>Karan Aujla</h5>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Station Section -->
+
+            <div class="stations">
+
+                <!-- contains 2 div 1st div contains heading and 2nd div contains all stations -->
+                <div class="sdiscreption">
+                    <!-- heading card div-->
+                    <div class="stag-img">
+                        <img src="radio.jpeg" alt="">
+                        <h4>Stations</h4>
+                    </div>
+    
+                    <!-- contains all the station card div -->
+                    <div class="slist">
+
+                        <div class="slist-img">
+                            <img src="chill.jpeg" alt="">
+                            <h5>Chill</h5>
+                        </div>
+
+                        <div class="slist-img">
+                            <img src="rain.jpeg" alt="">
+                            <h5>Rain</h5>
+                        </div>
+
+                        <div class="slist-img">
+                            <img src="radio station 2.jpeg" alt="">
+                            <h5>Retro</h5>
+                        </div>
+
+                        <div class="slist-img">
+                            <img src="love.png" alt="">
+                            <h5>Love</h5>
+                        </div>
+
+                        <div class="slist-img">
+                            <img src="workout.jpg" alt="">
+                            <h5>Workout</h5>
+                        </div>
+
+                        <div class="slist-img">
+                            <img src="tea.jpeg" alt="">
+                            <h5>Tea</h5>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Music Categories Section -->
+
+            <div class="music-categories">
+
+                <!-- outer container -->
+                <div class="mc-discreption">
+                    <!-- contains 3 photo cards of music categories -->
+                    <div class="mc">
+                        <!-- music categories photo cards -->
+                        <div class="mclist-img">
+                            <img src="party.jpg" alt="">
+                            <h3>Party</h3>
+                        </div>
+    
+                        <div class="mclist-img">
+                            <img src="folk.jpeg" alt="">
+                            <h3>Folk Music</h3>
+                        </div>
+    
+                        <div class="mclist-img">
+                            <img src="roadtrip.jpeg" alt="">
+                            <h3>Road Trip</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Latest Hindi Section -->
+            <div class="latest-hindi">
+                <div class="lh-discreption">
+                    <!-- heading -->
+                    <div class="lh-tag">
+                        <h4>Latest Hindi</h4>
+                    </div>
+    
+                    <!-- contains all div card of l-hindi songs -->
+                    <div class="lh-list">
+
+                        <!-- contains details like image, song name, release date, etc. -->
+                        <div class="lh-img">
+                            <img src="vishal mishra.jpeg" alt="">
+                            <h5>Pehle Bhi Main
+                                <div class="lh-subtitle">Dec 1, 2017</div>
+                            </h5>
+                        </div>
+
+                        <!-- contains details like image, song name, release date, etc. -->
+                        <div class="lh-img">
+                            <img src="jagjit singh.jpeg" alt="">
+                            <h5>Woh Kagaz Ki Kashti
+                                <div class="lh-subtitle">Dec 1, 2017</div>
+                            </h5>
+                        </div>
+
+                        <!-- contains details like image, song name, release date, etc. -->
+                        <div class="lh-img">
+                            <img src="atif.jpeg" alt="">
+                            <h5>Pehli Nazar Mein
+                                <div class="lh-subtitle">Dec 1, 2017</div>
+                            </h5>
+                        </div>
+
+                        <!-- contains details like image, song name, release date, etc. -->
+                        <div class="lh-img">
+                            <img src="diljit dosanjh.jpeg" alt="">
+                            <h5>G.O.A.T.
+                                <div class="lh-subtitle">Dec 1, 2017</div>
+                            </h5>
+                        </div>
+
+                        <!-- contains details like image, song name, release date, etc. -->
+                        <div class="lh-img">
+                            <img src="sidhu-moose-wala.jpeg" alt="">
+                            <h5>395
+                                <div class="lh-subtitle">Dec 1, 2017</div>
+                            </h5>
+                        </div>
+
+                        <!-- contains details like image, song name, release date, etc. -->
+                        <div class="lh-img">
+                            <img src="karan aujla.jpeg" alt="">
+                            <h5>Softly
+                                <div class="lh-subtitle">Dec 1, 2017</div>
+                            </h5>
+                        </div>
+   
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Latest English Section -->
+            <div class="latest-english">
+                <div class="le-discreption">
+                    <!-- heading -->
+                    <div class="le-tag">
+                        <h4>Latest English</h4>
+                    </div>
+    
+                    <!-- contains all div card of l-hindi songs -->
+                    <div class="le-list">
+
+                        <!-- contains details like image, song name, release date, etc. -->
+                        <div class="le-img">
+                            <img src="bruno mars.png" alt="">
+                            <h5>Flowers
+                                <div class="le-subtitle">Dec 1, 2017</div>
+                            </h5>
+                        </div>
+
+                        <!-- contains details like image, song name, release date, etc. -->
+                        <div class="le-img">
+                            <img src="selena.jpeg" alt="">
+                            <h5>Love You Like a Love Song
+                                <div class="le-subtitle">Dec 1, 2017</div>
+                            </h5>
+                        </div>
+
+                        <!-- contains details like image, song name, release date, etc. -->
+                        <div class="le-img">
+                            <img src="zayn.jpg" alt="">
+                            <h5>Vibez
+                                <div class="le-subtitle">Dec 1, 2017</div>
+                            </h5>
+                        </div>
+
+                        <!-- contains details like image, song name, release date, etc. -->
+                        <div class="le-img">
+                            <img src="maroon 5.jpeg" alt="">
+                            <h5>Girls Like You
+                                <div class="le-subtitle">Dec 1, 2017</div>
+                            </h5>
+                        </div>
+
+                        <!-- contains details like image, song name, release date, etc. -->
+                        <div class="le-img">
+                            <img src="dua.jpg" alt="">
+                            <h5>Love Again
+                                <div class="le-subtitle">Dec 1, 2017</div>
+                            </h5>
+                        </div>
+
+                        <!-- contains details like image, song name, release date, etc. -->
+                        <div class="le-img">
+                            <img src="ariana grande.jpg" alt="">
+                            <h5>Be Alright
+                                <div class="le-subtitle">Dec 1, 2017</div>
+                            </h5>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- side-section -->
+
+        <aside class="side-section">
+            <!-- Heading for playlis, queue, etc. -->
+            <div class="queue-section">
+                <div class="que-1"><h4>Queue</h4></div>
+                <!-- dropdown section and icon -->
+                <div class="que-2">
+                    <a href="#" class="drop-que">Queue <i class="fa-solid fa-caret-down"></i></a>
+                    <!-- dropdown menu list -->
+                    <div class="drop-down">
+                        <a href="#" class="plinks"> <i class="fa-solid fa-list-ul fa-xs"></i> Playlist</a>
+                        <a href="#" class="plinks"> <i class=" fa-xs fa-solid fa-music"></i> Recently Played</a>
+                        <a href="#" class="plinks"> <i class="fa-solid fa-heart fa-xs"></i> Favourite Songs</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- list of songs currently in queue -->
+            <div class="song-list">
+                <!-- contains song number, image, singer, s-name, and like icon -->
+                <li class="song-item"><span>01</span> 
+                    <img src="selena.jpeg" alt="">
+                    <!-- play button on hover -->
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <!-- song name -->
+                    <h5>Love You Like a Love Song <br> 
+                        <!-- singer name -->
+                        <div class="subtitle">Selena Gomez</div>
+                    </h5>
+                    <i class="listheart fa-solid fa-heart fa-xs" id="1" ></i>
+                </li>
+                <!-- contains song number, image, singer, s-name, and like icon -->
+                <li class="song-item"><span><i class="fa-solid fa-chart-simple" style="color: #999;"></i></span> 
+                    <img src="vishal mishra.jpeg" alt="">
+                    <!-- play button on hover -->
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <!-- song name -->
+                    <h5>Pehle Bhi Main <br> 
+                        <!-- singer name -->
+                        <div class="subtitle">Vishal Mishra</div>
+                    </h5>
+                    <i class="listheart fa-solid fa-heart fa-xs" id="2" ></i>
+                </li>
+                <!-- contains song number, image, singer, s-name, and like icon -->
+                <li class="song-item"><span>03</span> 
+                    <img src="dua.jpg" alt=""> 
+                    <!-- play button on hover -->
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <!-- song name -->
+                    <h5>Love Again <br> 
+                        <!-- singer name -->
+                        <div class="subtitle">Dua Lipa</div>
+                    </h5>
+                    <i class="listheart fa-solid fa-heart fa-xs" id="3" ></i>
+                </li>
+                <!-- contains song number, image, singer, s-name, and like icon -->
+                <li class="song-item"><span>04</span> 
+                    <img src="karan aujla.jpeg" alt=""> 
+                    <!-- play button on hover -->
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <!-- song name -->
+                    <h5>Softly <br> 
+                        <!-- singer name -->
+                        <div class="subtitle">Karan Aujla</div>
+                    </h5>
+                    <i class="listheart fa-solid fa-heart fa-xs" id="4" ></i>
+                </li>
+                <!-- contains song number, image, singer, s-name, and like icon -->
+                <li class="song-item"><span>05</span> 
+                    <img src="karan aujla.jpeg" alt=""> 
+                    <!-- play button on hover -->
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <!-- song name -->
+                    <h5>Bachke Bachke <br> 
+                        <!-- singer name -->
+                        <div class="subtitle">Karan Aujla</div>
+                    </h5>
+                    <i class="listheart fa-solid fa-heart fa-xs" id="5" ></i>
+                </li>
+                <!-- contains song number, image, singer, s-name, and like icon -->
+                <li class="song-item"><span>06</span> 
+                    <img src="anuv.jpg" alt=""> 
+                    <!-- play button on hover -->
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                     <!-- song name -->
+                    <h5>Gul <br> 
+                        <!-- singer name -->
+                        <div class="subtitle">Anuv Jain</div>
+                    </h5>
+                    <i class="listheart fa-solid fa-heart fa-xs" id="6" ></i>
+                </li>
+                <!-- contains song number, image, singer, s-name, and like icon -->
+                <li class="song-item"><span>07</span> 
+                    <img src="selena.jpeg" alt=""> 
+                    <!-- play button on hover -->
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <!-- song name -->
+                    <h5>Love You Like a Love Song <br> 
+                        <!-- singer name -->
+                        <div class="subtitle">Selena Gomez</div>
+                    </h5>
+                    <i class="listheart fa-solid fa-heart fa-xs" id="7" ></i>
+                </li>
+                <!-- contains song number, image, singer, s-name, and like icon -->
+                <li class="song-item"><span>08</span> 
+                    <img src="arijit.jpeg" alt=""> 
+                    <!-- play button on hover -->
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <!-- song name -->
+                    <h5>Chaleya <br> 
+                        <!-- singer name -->
+                        <div class="subtitle">Arijit Singh</div>
+                    </h5>
+                    <i class="listheart fa-solid fa-heart fa-xs" id="8" ></i>
+                </li>
+                <!-- contains song number, image, singer, s-name, and like icon -->
+                <li class="song-item"><span>09</span> 
+                    <img src="kishor kumar.jpeg" alt="">
+                    <!-- play button on hover --> 
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <!-- song name -->
+                    <h5>Tere Jaisa Yaar Kahan <br> 
+                        <!-- singer name -->
+                        <div class="subtitle">Kishor Kumar</div>
+                    </h5>
+                    <i class="listheart fa-solid fa-heart fa-xs" id="9" ></i>
+                </li>
+                <!-- contains song number, image, singer, s-name, and like icon -->
+                <li class="song-item"><span>10</span> 
+                    <img src="selena.jpeg" alt=""> 
+                    <!-- play button on hover -->
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <!-- song name -->
+                    <h5>Love You Like a Love Song <br>
+                        <!-- singer name --> 
+                        <div class="subtitle">Selena Gomez</div>
+                    </h5>
+                    <i class="listheart fa-solid fa-heart fa-xs" id="10" ></i>
+                </li>
+            </div>
+        </aside>
+
+
+
+
+
+
+
+
+
+        
+        <!-- music controller and music details -->
+        <footer>
+            <div class="song-description">
+                <!-- song cover pic, tite, artist name -->
+                <div class="song-infos">
+                    <!-- playing song cover image -->
+                    <div class="song-img">
+                        <img src="selena.jpeg" alt="">
+                    </div>
+                    <!-- song's artist name & title -->
+                    <div class="song-details">
+                        <p class="title">Love You Like a Love Song</p>
+                        <p class="artist">Selena Gomez</p>
+                    </div>
+                    <!-- song's like dislike buttons -->
+                    <div class="description-icons">
+                        <i class="description-like fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-ban"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- song's controlls like play, pause, next, previous -->
+            <div class="progress-controller">
+                <!-- play, pause, next, previous etc buttons -->
+                <div class="control-buttons">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="play-pause fa-2x fa-solid fa-circle-pause"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <!-- current song playing timeline -->
+                <div class="progress-container">
+                    <span>1:13</span>
+                    <div class="progress-bar">
+                        <div class="progress">
+                        </div>
+                    </div>
+                    <span>3:40</span>
+                </div>
+            </div>
+
+            <!-- list icon, volume up-down buttons -->
+            <div class="other-features">
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-display"></i>
+
+                <!-- volume control -->
+                <div class="volume-bar">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <div class="progress-bar">
+                        <div class="progress">
+                        </div>
+                    </div>
+                </div>
+                <!-- expand icon -->
+                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </div>
+        </footer>
+
+    </main>
+    
+</body>
+</html>
